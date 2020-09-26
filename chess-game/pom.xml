@@ -48,7 +48,7 @@
 				<version>1.6.0</version>
 				<configuration>
 					<classpathScope>test</classpathScope>
-					<mainClass>com.technogise.chess.App</mainClass>
+					<mainClass>com.technogise.chess_game.App</mainClass>
 				</configuration>
 				<executions>
 					<execution>
