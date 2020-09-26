@@ -3,6 +3,10 @@ package com.technogise.chess_game.bean;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author ram
+ *
+ */
 public class VerticalMovement extends Movement{
 	
 	

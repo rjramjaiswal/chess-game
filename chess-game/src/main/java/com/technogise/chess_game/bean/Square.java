@@ -1,5 +1,9 @@
 package com.technogise.chess_game.bean;
 
+/**
+ * @author ram
+ *
+ */
 public class Square {
 
 	private Piece peice;

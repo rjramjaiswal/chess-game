@@ -40,6 +40,9 @@ public class Board {
 		return squares[x][y];
 	}
 	
+	/**
+	 * display the board in 8X8 with position name
+	 */
 	public void displayBoard() {
 		for(Square[] sqArr:squares) {
 			for(Square sq:sqArr) {

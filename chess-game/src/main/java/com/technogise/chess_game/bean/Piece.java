@@ -1,10 +1,15 @@
 package com.technogise.chess_game.bean;
 
+
+/**
+ * @author ram
+ *
+ */
 public abstract class Piece {
 	private String name;
 	private Color color;
 	private boolean alive;
-
+	private MovementBehaviour movementBehaviour;
 
 
 	public Piece(String name, Color color, boolean alive) {
@@ -38,4 +43,12 @@ public abstract class Piece {
 		this.alive = alive;
 	}
 
+	public MovementBehaviour getMovementBehaviour() {
+		return movementBehaviour;
+	}
+
+	public void setMovementBehaviour(MovementBehaviour movementBehaviour) {
+		this.movementBehaviour = movementBehaviour;
+	}
+	
 }
