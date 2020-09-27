@@ -14,7 +14,6 @@ import com.technogise.chess_game.util.ChessUtil;
 class TwoAndHalfMovementTest {
 
 	private static Board boardSideAasWhite;
-	private static Board boardSideAasBlack;
 	private Movement movementWithSingleStep;
 	private Movement movementWithMaxStep;
 
@@ -22,8 +21,7 @@ class TwoAndHalfMovementTest {
 	static void setUpBeforeClass() throws Exception {
 
 		boardSideAasWhite = new Board(Color.WHITE, Color.BLACK);
-		boardSideAasBlack = new Board(Color.BLACK, Color.WHITE);
-		boardSideAasBlack.displayBoard();
+
 	}
 
 	@BeforeEach

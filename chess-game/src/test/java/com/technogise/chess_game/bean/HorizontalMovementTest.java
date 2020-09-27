@@ -1,6 +1,6 @@
 package com.technogise.chess_game.bean;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +16,6 @@ import com.technogise.chess_game.util.ChessUtil;
 class HorizontalMovementTest {
 
 	private static Board boardSideAasWhite;
-	private static Board boardSideAasBlack;
 	private Movement movementWithSingleStep;
 	private Movement movementWithMaxStep;
 
@@ -24,8 +23,6 @@ class HorizontalMovementTest {
 	static void setUpBeforeClass() throws Exception {
 
 		boardSideAasWhite = new Board(Color.WHITE, Color.BLACK);
-		boardSideAasBlack = new Board(Color.BLACK, Color.WHITE);
-		boardSideAasBlack.displayBoard();
 	}
 
 	@BeforeEach

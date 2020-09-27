@@ -33,11 +33,11 @@ public class Board {
 		this.bSideColor=bSide;
 	}
 	
-	public Square getName(int x,int y) {
+	public String getName(int x,int y) {
 		if(x>=8 || y>=8) {
-			//throw Exception
+			throw new ArrayIndexOutOfBoundsException("min and max index bound is 0 and 7");
 		}
-		return squares[x][y];
+		return squares[x][y].getName();
 	}
 	
 	/**

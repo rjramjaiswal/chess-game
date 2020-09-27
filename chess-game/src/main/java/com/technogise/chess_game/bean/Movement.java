@@ -73,7 +73,7 @@ public abstract class Movement {
 	public int[] indexes(String positionName) {
 		int[] arr=new int[2];
 		char[] chArr=positionName.toCharArray();
-		arr[0]=Integer.parseInt(chArr[1]+"");
+		arr[0]=Integer.parseInt(chArr[1]+"")-8;
 		arr[1]=chArr[0]-65;
 		
 		return arr;	
