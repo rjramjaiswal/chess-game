@@ -55,4 +55,14 @@ public class Square {
 		this.color = color;
 	}
 
+	@Override
+	public String toString() {
+		return "Square [ index=" + x + "" + y + ", name=" + name + "]";
+	}
+	
+	
+	
+	
+	
+
 }
