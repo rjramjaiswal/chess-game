@@ -15,6 +15,7 @@ class SquareTest {
 	void setUp() throws Exception {
 		square=new Square(0, 0);
 		square.setColor(Color.WHITE);
+		System.out.println(square);
 	}
 
 	@Test
